@@ -1,0 +1,9 @@
+
+we are using OrderedDict
+->it has both  fast lookup and sorting nature
+
+Uses Pythons's OrderedDict as cache, which keeps track of the order that
+entries are inserted. Deleting an entry and reinserting it will move it to the end.
+If the value of a key is changed, the key position does not change.
+
+Time O(1), Space O(1) -> Our dictionary can access easily and We can add a new entry in O(1)

@@ -1,0 +1,23 @@
+
+
+
+Here is one type of pseudocode for this coding schema:
+    1) Take a string and determine the relevant frequencies of the characters
+    2) Build and sort a list of tuples from lowest to highest frequencies
+    3) Build the Huffman Tree by assigning a binary code to each letter, using shorter
+       codes for the more frequent letters
+       (This is the heart of the Huffman algorithm.)
+    4) Trim the Huffman Tree (remove the frequencies from the previously built tree)
+    5) Encode the text into its compressed form
+    6) Decode the text from its compressed form
+  
+
+
+
+
+The time complexity of the Huffman algorithm is O(nlogn). By using a heap to store the weight of each tree, each iteration requires O(log n) time to place in the priority queue, and there are O(n) iterations, one for each item. The space complexity in building the Huffman Tree is O(#of distinct symbols in the data).
+
+For testing, a test function  is defined
+edge cases
+ None, empty string, and single frequency strings -> “a”, “aa”, etc. Single frequency strings are directly translated into “0”, “00”, “000” since the full strength of the Huffman Coding is not required for these single frequency entries.
+

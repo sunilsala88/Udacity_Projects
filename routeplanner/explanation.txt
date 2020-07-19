@@ -1,0 +1,20 @@
+
+i have used heapq.
+The property of this data structure in python is that each time the smallest of heap element is popped(min heap). 
+Whenever elements are pushed or popped, heap structure in maintained
+
+to implement a*search algorithm
+1st i have inserted the start node inside heap.
+then  i calculated the score by using standard distance formula(Euclidean formula)i.e distance between current node and neighbour node
+if this score is unique and smaller than other neighbour then we inserted the node in the heap
+by following the above step until we reach the destination 
+we where able to find the shortest distance between source and distination
+
+time complexity:
+Considering a graph, it may take us to travel all the edge to reach the destination cell from the source cell 
+[For example, consider a graph where source and destination nodes are connected by a series of edges, like – 0(source) –>1 –> 2 –> 3 (target)
+So the worse case time complexity is O(E), where E is the number of edges in the graph
+
+space complexity:
+ In the worse case we can have all the edges inside the open list, 
+so required auxiliary space in worst case is O(V), where V is the total number of vertices

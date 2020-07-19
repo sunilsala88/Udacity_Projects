@@ -1,0 +1,44 @@
+task0:->
+
+Explanation:
+ In both line of print function, as I am accessing the elements from list using indexing
+This runs in __O(1)__, due to the fact that _access_ on a Python array has O(1), and there are
+two lines executing accesses to lists
+	
+time complexity= O(1) + O(1) = O(2) =O(1) i.e constant
+
+
+
+
+task1:->
+
+This takes runs in __O(n)__, due to the fact that we access sequentially both files for two of their
+columns, resulting in 
+
+Time complexity (worst case): O(n)
+
+task2:->
+
+we have two for loop 
+first runs for n time 
+second for loop runs for 2 time 
+Therefor time complexity of the solution is O(n*2)i.e O(n)
+
+task3:->
+
+1st loop for calls -> O(n)
+2md loop among calls (worst case all calls again) -> O(n)
+1 sorted function -> O(nlogn)
+1 loop among calls (worst case all calls again) -> O(n)
+Total = O(n+n + nlogn + n)  -> O(nlogn)
+
+task4:->
+
+for texters -> O(n) 
+for call_receivers -> O(n) 
+for marketers -> O(n) 
+The sorted function at the end -> O(nlogn) 
+
+time complexity=O(n + n + n + nlogn) -> O(nlogn) 
+
+

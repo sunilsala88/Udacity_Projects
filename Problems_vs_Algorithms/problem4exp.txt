@@ -1,0 +1,19 @@
+Data structure:
+Linear-time partition routine is used to sort the array that separated the values into three groups.
+
+values less than the pivot
+values equal to the pivot
+values greater than pivot
+
+Implementation process
+
+For this dutch national flag problem, I just copied the solution from the "lesson 2: sorting algorithms". And I add some extra checking. For example, if the length of the input list 
+is empty, then it returns -1. If there is any number other than 0s, 1s, or 2s, then returns -1. There are four different
+conditions in the IF statement. This is a single traversal by putting all possible 0 at the start of the array, all 2s in the end, and the 1s in the middle of array.
+
+
+Time Complexity:
+The code traverses through the length of the array and compare the numbers and does swapping when necessary. Hence the time complexity O(length of the array):O(n)
+
+Space Complexity:
+Space complexity is O(1).

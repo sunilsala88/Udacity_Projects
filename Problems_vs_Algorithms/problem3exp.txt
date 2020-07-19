@@ -1,0 +1,15 @@
+
+
+We need two numbers such that their sum is maximum, then we would also need two maximum numbers. If we arrange our array in descending order then we can get two digits that will form the largest numbers.
+
+
+Time Complexity: O(n)
+A good algorithm to rearrange array elements as two numbers but not using any sorting funciton is merge sort. The first step is to use merge sort to sort the 
+array as descending ordered. The time complexity for merge sort is O(nlog(n)). Then, I set two lists from the sorted list. Later, 
+using two for loops to create two string. Last, return these two strings as integes.
+Time complexity: O(nlog(n)). merge sort O(nlog(n)), two for loops O(2n). The total complexity is O(nlog(n) + 2n) = O(n (2+log(n))) --> O(nlog(n)).
+
+
+Space Complexity:
+Space complexity is O(n). Where, n are the number of elements.
+

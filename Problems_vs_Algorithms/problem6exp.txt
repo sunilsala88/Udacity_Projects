@@ -1,0 +1,7 @@
+
+We are taking two variabel maximum and minimum.while iterating the array we find the maximum and minimum array in the list
+
+Efficiency
+Time Complexity: we're iterating once through the entire array, making O(1) operations at each iteration, and then returning min and max, so the time complexity is O(n).
+
+Space Complexity: O(1) since we only use 2 variables regardles of the input.

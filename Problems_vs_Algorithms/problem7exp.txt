@@ -1,0 +1,7 @@
+Trie data structure is a tree with each node consisting of one letter as data and pointer to the next node. It uses Finite Deterministic automation. That means, it uses state to state transition.
+
+
+Time complexity: O(n). In the RouteTrie class, the insert and find function both contain O(n) because of the for loop. Inside the Router class, the add_handler function and lookup function both have O(n) time complexity because the first one uses insert function and the second uses find function to read all the number. Therefore, the total time complexity is O(n).
+
+
+Space complexity: O(M*N). space complexity depends of the number of words (let's call them M) and the length of those words (let's call the average length of the word N) Therefore the total space consumed in a trie is M*N

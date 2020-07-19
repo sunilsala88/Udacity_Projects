@@ -1,0 +1,10 @@
+
+
+In class Trie, initializing this Trie by adding a root node from the class TrieNode, then adding words to the Trie by applying a for loop. 
+In the search function, I also use a for loop to find the Trie node that represents this prefix.
+
+In the class TrieNode, initializing this node in the Trie, checking if the node represent the end of the word. In the suffixes function,create a array list, recursing the suffix function, and returning the list. In the suffix function
+
+Time complexity - O(1) 
+Space complexity - O(1) 
+Suffix of a node: Time complexity: O(mh) Space complexity: O(mh) where m is maximum number of elements in one level and h is the height.
